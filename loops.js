@@ -67,13 +67,81 @@ for (var i = 0; i<names.length; i++){
 
 
 
-    for (var i = 0; i<101; i++){
+/*    for (var i = 0; i<101; i++){
          if (i % 3 === 0 && i % 5 === 0){
-            console.log (i+" is fizzbuzz");            
+            console.log (i + " is fizzbuzz");            
          }else if (i % 3 === 0) {
-            console.log(i + "" + "is fizz");
+            console.log(i + "" + "  is fizz");
         }else if (i % 5 === 0){
-            console.log("buzz");
+            console.log(i + "  is buzz");
         }
-        }
+        }*/
+
+/*var a = [5, -4.2, 3, 7, 5, -4.2, 3, 7, 5, -4.2, 3, 7, 5, -4.2, 3, 7];
+var e = 3;
+var status = false;
+
+for (var i = 0; i < 4; i++) {
+    if (a[i] === e) {
+        status = true;
+        break;
+    }
+
+}
+console.log(i)
+
+console.log(status);
+
+if (status) {
+    console.log("Yes");
+} else {
+    console.log("No");
+}*/
+
+
+/*var x = [-3, 11, 5, 3.4, -8];
+var newArray = [];
+for (var i = 0; i < x.length; i++) {
+    if (x[i] > 0) {
+        newArray[i] = x[i] * 2;
+    } else {
+        newArray[i] = x[i];
+    }
+}
+
+console.log(x);
+console.log(newArray);*/
+
+/*Write a program that finds the minimum of a given array and prints out its value and index. 
+Input array: [4, 2, 2, -1, 6]
+Output: -1, 4*/
+
+/*var inputArray = [4, 2, 2, -1, 6];
+var min = inputArray[0];
+var ind = 0;
+
+for(var i = 0; i < inputArray.length; i++) {
+    if(inputArray[i]< min) {
+        min = inputArray[i];
+        ind = i; 
+    }
+}
+console.log(min);
+console.log(ind);*/
+
+/*Write a program that finds the first element larger than minimum and prints out its value. 
+Input array: [4, 2, 2, -1, 6]
+Output: 2*/
+
+var inputArray = [4, 2, 2, -1, 6];
+var min = inputArray[0];
+var 
+
+
+
+
+
+
+
+
 
