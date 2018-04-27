@@ -103,19 +103,24 @@ Write a function to convert string into an array. Space in a string should be re
 "My random string" -> ["M", "y", null, "r", "a"]
 "Random" -> ["R", "a", "n", "d", "o", "m"]*/
 
-/*function stringToArray(string) {
+function stringToArray(string) {
     var newArr = [];
     for (var i = 0; i < string.length; i++) {
         if (string[i] === " ") {
-            newArr[i] = "null"
-        } else {
-            newArr[i] = string[i];
+            newArr[i] = null
+            continue;
         }
 
+        newArr[i] = string[i];
     }
+    
     return newArr;
 }
 console.log(stringToArray("rasa nest"));
+
+var string = "Uros";
+string[2] = "a";
+console.log(string);
 
 /* task 8 
 Write a function that accepts a number as a parameter and checks if the number is prime or not. 
