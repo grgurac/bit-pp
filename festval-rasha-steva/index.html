@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Festival</title>
+</head>
+
+<body>
+    <h1>MOVIE LIST</h1>
+    <div class="main-div">
+        <form>
+            <fieldset>
+                <p>Please fill in the form.</p>
+                <p>Movie</p>
+                <label for="title">Title</label>
+                <input type="text" id="title">
+                <label for="length">Length(min)</label>
+                <input type="number" id="length">
+                <select class="movie-genre">
+                    <option value="-">-</option>
+                    <option value="drama">Drama</option>
+                    <option value="horror">Horror</option>
+                    <option value="action">Action</option>
+                </select>
+                <div class="error">
+                    
+                </div>
+                <input type="button" value="Create movie" class="zeleno-dugme" onclick="createMovie()">
+                <ul class="output">
+
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+    <script src="./js/form.js"></script>
+    <script src="./js/entities.js"></script>
+</body>
+
+</html>
